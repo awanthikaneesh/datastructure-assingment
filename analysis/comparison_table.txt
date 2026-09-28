@@ -1,0 +1,15 @@
+COMPARISON TABLE
+
+| Feature | Stack-based Postfix | Expression Tree |
+|---------|---------------------|------------------|
+| Data Structure | Stack | Binary Tree |
+| Evaluation | Direct stack operations | Recursive tree traversal |
+| Time Complexity | O(n) | O(n) |
+| Space Complexity | O(n) | O(n) |
+| Stores Expression Structure | No | Yes |
+| Preorder Traversal | Not directly available | Available |
+| Inorder Traversal | Not directly available | Available |
+| Postorder Traversal | Same as input | Available |
+| Structural Information | Limited | Detailed |
+| Expression Modification | Difficult | Easier |
+| Main Purpose | Direct evaluation | Representation and evaluation |
