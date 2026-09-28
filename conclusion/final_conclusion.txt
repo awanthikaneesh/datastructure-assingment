@@ -1,0 +1,18 @@
+FINAL CONCLUSION
+
+Both stack-based postfix evaluation and expression tree evaluation
+give the same result, 11, for the given postfix expression.
+
+Stack-based postfix evaluation is simple and efficient for directly
+evaluating a postfix expression.
+
+The Expression Tree also has O(n) time complexity, but it provides
+additional structural information. It represents the relationship
+between operands and operators in a hierarchical form.
+
+Using the tree, preorder, inorder and postorder traversals can be
+obtained. The expression can also be analysed or modified more easily.
+
+Therefore, postfix evaluation is useful for direct evaluation, while
+an Expression Tree is useful when the structure of the expression is
+also required.
