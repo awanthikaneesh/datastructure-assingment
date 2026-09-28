@@ -1,0 +1,44 @@
+COMPLEXITY ANALYSIS
+
+Let n be the number of tokens in the postfix expression.
+
+1. Stack-based Postfix Evaluation
+
+Time Complexity: O(n)
+
+Each token is processed once.
+
+Space Complexity: O(n)
+
+The stack may contain up to n operands or intermediate results.
+
+
+2. Expression Tree Construction
+
+Time Complexity: O(n)
+
+Each token is processed once while constructing the tree.
+
+Space Complexity: O(n)
+
+The expression tree contains nodes for the operands and operators.
+
+
+3. Expression Tree Evaluation
+
+Time Complexity: O(n)
+
+Each node of the expression tree is visited once.
+
+Space Complexity: O(h)
+
+where h is the height of the expression tree.
+
+
+Overall Analysis
+
+Both stack-based postfix evaluation and expression tree evaluation
+have O(n) time complexity.
+
+The expression tree requires additional memory because it stores
+the complete structural representation of the expression.
