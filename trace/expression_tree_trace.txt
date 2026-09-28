@@ -1,0 +1,28 @@
+EXPRESSION TREE CONSTRUCTION TRACE
+
+Postfix Expression:
+8 3 2 * + 6 2 / -
+
+| Token | Operation |
+|-------|-----------|
+| 8 | Create node 8 and push |
+| 3 | Create node 3 and push |
+| 2 | Create node 2 and push |
+| * | Pop 2 and 3, create * node |
+| + | Pop * and 8, create + node |
+| 6 | Create node 6 and push |
+| 2 | Create node 2 and push |
+| / | Pop 2 and 6, create / node |
+| - | Pop / and +, create - node |
+
+Final root: -
+
+Expression Tree:
+
+             -
+           /   \
+          +     /
+         / \   / \
+        8   * 6   2
+           / \
+          3   2
